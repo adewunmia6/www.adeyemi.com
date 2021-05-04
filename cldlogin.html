@@ -1,0 +1,129 @@
+<!Doctype html>
+<html>
+
+<head>
+<title>Login</title>
+<link rel= "stylesheet" href="css/myproject.css">
+<link rel= "stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+<div class="container" id="loginform">
+
+<form id="survey-form" action="/my-handling-form-page" method="post">
+<h3> Log in to Cloudflare <h3>
+<fieldset>
+
+<div id="e-mail">
+<label id="email">
+Email:
+</label></br>
+<input type="text" id="email" name="e_mail" required>
+</div>
+
+
+<div id="pass">
+<label>
+Password:
+</label></br>
+<input type="password" id="password" name="pass_word"><br>
+<input type="checkbox" onclick="myFunction()"> <label>Show Password</label>
+</div>
+
+<button type="button" class="btn btn-primary" id="btn"> Login</button>
+</fieldset>
+</form>
+
+<div class="myalter">
+ <a class="hover" href="cldsignup.html" style="text-decoration:none;">Sign up</a>
+ <a href="#news" style="text-decoration:none;">Forgot Password</a>
+ <a href="#contact" style="text-decoration:none;"> Forgot Your Email</a>
+</div> 
+</div> 
+
+ 
+ <!--<hr style="height:2px;border-width:0;color:gray;background-color:gray">-->
+<div class="footer-clean bg-dark color:white">
+    <footer class="flex flex-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="#">Contact sales</a></li>
+                            <li><a href="#">Contact support</a></li>
+                            <li>Call sales: +1 (888) 993 5273</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h4>What we do</h4>
+                        <ul>
+                            <li><a href="#">Plans</a></li>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Features</a></li> 
+							<li><a href="#">Network</a></li>
+                            <li><a href="#">Apps</a></li>
+                        </ul>
+                    </div>
+					<div class="col-sm-4 col-md-3 item">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Videos</a></li>
+							<li><a href="#">Trust & Safety</a></li>
+                        </ul>
+                    </div> 
+					<div class="col-sm-4 col-md-3 item">
+                        <h4>About us</h4>
+                        <ul>
+                            <li><a href="#">Our team</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+							<li><a href="#">Website Terms of Use</a></li>
+                            <li><a href="#">Self-serve Subscription Agreement</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+            
+                </div>
+            </div>
+</div> 
+
+
+
+
+
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="jquery/jquery3.6.0.min.js"></script>
+<script src="angJS/angular.min.js"></script>
+<script src="JS/myproject.js"></script> 
+</body>
+
+
+</html>
